@@ -6,6 +6,7 @@ import minimist from "minimist"
 const app = express()
 const port = minimist(process.argv.slice(2)).port || 5000
 
+app.use(express.json());
 app.use(express.urlencoded({extended: true}))
 
 app.get('/app', (req, res) => {

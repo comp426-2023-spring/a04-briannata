@@ -1,0 +1,22 @@
+{
+  "name": "a04-briannata",
+  "version": "1.0.0",
+  "description": "a04 Stand up an API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a04-briannata.git"
+  },
+  "author": "briannata",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a04-briannata/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a04-briannata#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
